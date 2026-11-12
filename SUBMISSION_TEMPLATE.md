@@ -107,9 +107,15 @@ application model, not live production recovery.
 
 **GitHub Actions:** https://github.com/harsha-lv/phase-4/actions
 
-**Successful run URL:** Pending verification of the final pushed commit.
-The unauthenticated GitHub API was rate-limited during investigation; local
-success must not be represented as a verified hosted workflow result.
+**Verified successful recovery run:**
+https://github.com/harsha-lv/phase-4/actions/runs/43195000530
+
+GitHub reports **Success** for fix commit
+`86bc21b5fc13512d6bf8eafaee64029bddff13ea` (9 seconds), running the supplied
+Python 3.12 test and recovery-verifier workflow. This was verified from the
+public Actions run page after the API was rate-limited. The evidence-only
+report update triggers a further run; use the Actions page above to match the
+final submission commit to its own run.
 
 ## 6. Final flag
 
